@@ -1,0 +1,20 @@
+1. What is the definition of server port?
+   Server ports are numbered ports through which servers make the services available to the internet. One port is configured for each of the services. 
+
+2. What is server port range?
+   0 - 65535
+
+3. How many bits does number above represent?
+	 16 bits (2^16 = 65536) 
+
+4) State 10 common server ports.
+   FTP Data Transfer -> 20	 
+   FTP Control -> 21		 
+	 SSH -> 22
+	 HTTP -> 80
+   Authentication & Ident Protocols -> 113 
+   SFTP -> 115
+   Mobile IP Agent -> 434
+   HTTPS -> 443
+   SNPP -> 444
+   RTSP -> 554
