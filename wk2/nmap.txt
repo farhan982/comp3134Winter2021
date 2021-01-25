@@ -1,0 +1,49 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 00:47 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00097s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 15.30 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 00:51 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0013s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.12 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p nmap -p 100-150 facebook.com
+Only 1 -p option allowed, separate multiple ranges with commas.
+QUITTING!
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 100-150 facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 00:54 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0012s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+All 51 scanned ports on facebook.com (31.13.80.36) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 13.33 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 00:55 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0011s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.91 seconds

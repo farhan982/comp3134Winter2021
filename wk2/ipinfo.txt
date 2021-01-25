@@ -1,0 +1,31 @@
+IPv4 address for youtube.com
+Domain Name Server: 173.194.216.93
+Domain Name Server: 173.194.216.91
+Domain Name Server: 173.194.216.136
+Domain Name Server: 173.194.216.190
+
+IPv4 address for snapchat.com
+Domain Name Server: 216.239.34.21
+Domain Name Server: 216.239.32.21
+Domain Name Server: 216.239.36.21
+Domain Name Server: 216.239.38.21
+
+IPv4 address for instagram.com
+Domain Name Server: 54.210.37.90
+Domain Name Server: 54.165.128.247
+Domain Name Server: 54.205.161.210
+Domain Name Server: 3.213.18.164
+Domain Name Server: 3.211.123.255
+Domain Name Server: 54.174.36.241
+Domain Name Server: 3.215.210.217
+Domain Name Server: 54.210.252.14
+
+IPv4 address for reddit.com
+Domain Name Server: 151.101.129.140
+Domain Name Server: 151.101.65.140
+Domain Name Server: 151.101.1.140
+Domain Name Server: 151.101.193.140
+
+IPv4 address for twitter.com
+Domain Name Server: 104.244.42.1
+Domain Name Server: 104.244.42.193
