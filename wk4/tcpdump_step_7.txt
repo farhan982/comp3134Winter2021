@@ -1,0 +1,28 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+00:28:55.815494 IP 159.203.13.120.35244 > 0.0.0.22.2: Flags [S], seq 2210010891, win 64240, options [mss 1460,sackOK,TS val 3027923636 ecr 0,nop,wscale 7], length 0
+00:28:55.815529 IP 159.203.13.120.49470 > 0.0.0.22.34: Flags [S], seq 2055092724, win 64240, options [mss 1460,sackOK,TS val 3027923636 ecr 0,nop,wscale 7], length 0
+00:28:55.815537 IP 159.203.13.120.49298 > 0.0.0.22.34: Flags [S], seq 1886042305, win 64240, options [mss 1460,sackOK,TS val 3027923636 ecr 0,nop,wscale 7], length 0
+00:28:55.815546 IP 159.203.13.120.42828 > 0.0.0.22.116: Flags [S], seq 1906278335, win 64240, options [mss 1460,sackOK,TS val 3027923636 ecr 0,nop,wscale 7], length 0
+00:28:55.817419 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 2040070176:2040070300, ack 1362646288, win 501, length 124
+00:28:55.819774 IP 159.203.13.120.46100 > 0.0.0.22.62: Flags [S], seq 2035237646, win 64240, options [mss 1460,sackOK,TS val 3027923640 ecr 0,nop,wscale 7], length 0
+00:28:55.828366 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [.], ack 0, win 2060, length 0
+00:28:55.836505 IP 159.203.13.120.57316 > 0.0.0.22.142: Flags [S], seq 302978862, win 64240, options [mss 1460,sackOK,TS val 3027923657 ecr 0,nop,wscale 7], length 0
+00:28:55.847565 IP 159.203.13.120.55862 > 0.0.0.22.54: Flags [S], seq 1397546859, win 64240, options [mss 1460,sackOK,TS val 3027923668 ecr 0,nop,wscale 7], length 0
+00:28:55.847626 IP 159.203.13.120.34908 > 0.0.72.33.time: Flags [S], seq 2743105970, win 64240, options [mss 1460,sackOK,TS val 1119634753 ecr 0,nop,wscale 7], length 0
+00:28:55.847640 IP 159.203.13.120.46834 > 0.0.0.22.51: Flags [S], seq 2843066855, win 64240, options [mss 1460,sackOK,TS val 3027923668 ecr 0,nop,wscale 7], length 0
+00:28:55.851856 IP 159.203.13.120.38252 > 0.0.0.22.3: Flags [S], seq 998260018, win 64240, options [mss 1460,sackOK,TS val 3027923672 ecr 0,nop,wscale 7], length 0
+00:28:55.872941 IP 159.203.13.120.43246 > 0.0.0.22.35: Flags [S], seq 3579593462, win 64240, options [mss 1460,sackOK,TS val 3027923694 ecr 0,nop,wscale 7], length 0
+00:28:55.873219 IP 159.203.13.120.53684 > 0.0.0.22.123: Flags [S], seq 1870806071, win 64240, options [mss 1460,sackOK,TS val 3027923694 ecr 0,nop,wscale 7], length 0
+00:28:55.879519 IP 159.203.13.120.44176 > 0.0.0.22.220: Flags [S], seq 1468197025, win 64240, options [mss 1460,sackOK,TS val 3027923700 ecr 0,nop,wscale 7], length 0
+00:28:55.879552 IP 159.203.13.120.43640 > 0.0.0.22.auth: Flags [S], seq 2038548088, win 64240, options [mss 1460,sackOK,TS val 3027923700 ecr 0,nop,wscale 7], length 0
+00:28:55.879563 IP 159.203.13.120.41074 > 0.0.0.22.195: Flags [S], seq 1262742524, win 64240, options [mss 1460,sackOK,TS val 3027923700 ecr 0,nop,wscale 7], length 0
+00:28:55.882919 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [.], ack 124, win 2059, length 0
+00:28:55.911532 IP 159.203.13.120.44906 > 0.0.0.22.sunrpc: Flags [S], seq 1770923691, win 64240, options [mss 1460,sackOK,TS val 3027923732 ecr 0,nop,wscale 7], length 0
+00:28:55.911574 IP 159.203.13.120.43188 > 0.0.0.22.35: Flags [S], seq 4169879187, win 64240, options [mss 1460,sackOK,TS val 3027923732 ecr 0,nop,wscale 7], length 0
+00:28:55.911582 IP 159.203.13.120.54880 > 0.0.0.22.192: Flags [S], seq 1882371854, win 64240, options [mss 1460,sackOK,TS val 3027923732 ecr 0,nop,wscale 7], length 0
+00:28:55.924365 IP 159.203.13.120.47266 > 0.0.0.22.68: Flags [S], seq 466723755, win 64240, options [mss 1460,sackOK,TS val 3027923745 ecr 0,nop,wscale 7], length 0
+00:28:55.943586 IP 159.203.13.120.54886 > 0.0.0.22.192: Flags [S], seq 3334539055, win 64240, options [mss 1460,sackOK,TS val 3027923764 ecr 0,nop,wscale 7], length 0
+00:28:55.943638 IP 159.203.13.120.33686 > 0.0.0.22.167: Flags [S], seq 3953425848, win 64240, options [mss 1460,sackOK,TS val 3027923764 ecr 0,nop,wscale 7], length 0
+00:28:55.943650 IP 159.203.13.120.38146 > 0.0.0.22.185: Flags [S], seq 3797188818, win 64240, options [mss 1460,sackOK,TS val 3027923764 ecr 0,nop,wscale 7], length 0
+00:28:55.944098 IP 159.203.13.120.55076 > 0.0.47.255.52: Flags [S], seq 2118331127, win 64240, options [mss 1460,sackOK,TS val 2751531965 ecr 0,nop,wscale 7], length 0

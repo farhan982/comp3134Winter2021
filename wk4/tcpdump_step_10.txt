@@ -1,0 +1,43 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+00:36:22.948508 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 319724:319928, ack 145, win 501, length 204
+00:36:22.948629 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [P.], seq 145:181, ack 283796, win 2059, length 36
+00:36:22.948629 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [.], ack 294956, win 2062, length 0
+00:36:22.948630 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [.], ack 303260, win 2064, length 0
+00:36:22.948770 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 319928:320132, ack 181, win 501, length 204
+00:36:22.948968 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 320132:320784, ack 181, win 501, length 652
+00:36:22.949097 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 320784:320988, ack 181, win 501, length 204
+00:36:22.949221 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 320988:321192, ack 181, win 501, length 204
+00:36:22.949345 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 321192:321396, ack 181, win 501, length 204
+00:36:22.949466 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 321396:321600, ack 181, win 501, length 204
+00:36:22.949589 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 321600:321804, ack 181, win 501, length 204
+00:36:22.949717 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 321804:322008, ack 181, win 501, length 204
+00:36:22.949874 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 322008:322212, ack 181, win 501, length 204
+00:36:22.950010 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 322212:322416, ack 181, win 501, length 204
+00:36:22.950133 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 322416:322620, ack 181, win 501, length 204
+00:36:22.950256 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 322620:322824, ack 181, win 501, length 204
+00:36:22.950386 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 322824:323028, ack 181, win 501, length 204
+00:36:22.950511 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 323028:323232, ack 181, win 501, length 204
+00:36:22.950633 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 323232:323436, ack 181, win 501, length 204
+00:36:22.950758 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 323436:323640, ack 181, win 501, length 204
+00:36:22.950979 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 323640:323844, ack 181, win 501, length 204
+00:36:22.951145 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 323844:324048, ack 181, win 501, length 204
+00:36:22.951274 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 324048:324252, ack 181, win 501, length 204
+00:36:22.951418 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 324252:324456, ack 181, win 501, length 204
+00:36:22.951660 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 324456:324660, ack 181, win 501, length 204
+00:36:22.951790 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 324660:324864, ack 181, win 501, length 204
+00:36:22.951914 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 324864:325068, ack 181, win 501, length 204
+00:36:22.952037 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 325068:325272, ack 181, win 501, length 204
+00:36:22.952160 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 325272:325476, ack 181, win 501, length 204
+00:36:22.952286 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 325476:325680, ack 181, win 501, length 204
+00:36:22.952408 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 325680:325884, ack 181, win 501, length 204
+00:36:22.952531 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 325884:326088, ack 181, win 501, length 204
+00:36:22.952661 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 326088:326292, ack 181, win 501, length 204
+00:36:22.952788 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 326292:326496, ack 181, win 501, length 204
+00:36:22.952911 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 326496:326700, ack 181, win 501, length 204
+00:36:22.953040 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 326700:326904, ack 181, win 501, length 204
+00:36:22.953160 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 326904:327108, ack 181, win 501, length 204
+00:36:22.953255 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [P.], seq 181:217, ack 303260, win 2064, length 36
+^C
+1631 packets captured
+1631 packets received by filter
+0 packets dropped by kernel

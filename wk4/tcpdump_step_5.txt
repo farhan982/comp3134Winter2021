@@ -1,0 +1,40 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+00:27:02.436150 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 1240004:1240472, ack 361, win 501, length 468
+        0x0000:  fe00 0000 0101 ee1f a3dd f935 0800 4510  ...........5..E.
+        0x0010:  01fc a103 4000 4006 7577 9fcb 0d78 63ee  ....@.@.uw...xc.
+        0x0020:  1140 0016 df81 7997 ab70 5138 4f28 5018  .@....y..pQ8O(P.
+        0x0030:  01f5 2460 0000 fd4d 5f60 1061 f4fc c449  ..$`...M_`.a...I
+        0x0040:  7978 a0ba 6e13 6c6e c132 26e0 acdc e31c  yx..n.ln.2&.....
+        0x0050:  413c d89d c829 3aec 2b6e 5ed4 74cc 5c49  A<...):.+n^.t.\I
+        0x0060:  d167 7650 9d59 bfda f75f 2f9a 1151 0f41  .gvP.Y..._/..Q.A
+        0x0070:  5c56 a159 ec9c 6f59 d77c 898d 345f eddf  \V.Y..oY.|..4_..
+        0x0080:  a54e 47fc e1f6 73a0 5963 812a 1b78 1511  .NG...s.Yc.*.x..
+        0x0090:  e158 0977 f9a3 3012 0ccc 3910 c658 a6df  .X.w..0...9..X..
+        0x00a0:  3f2c 3404 207a 9307 cc27 8d8c badc 4f38  ?,4..z...'....O8
+        0x00b0:  eb31 c919 1303 d17c ec90 896b 8f48 5c99  .1.....|...k.H\.
+        0x00c0:  843b 999f 1fa0 6cb9 7b6d 85bd bfc8 576c  .;....l.{m....Wl
+        0x00d0:  5a27 979c d5a6 3989 f6b8 1504 c294 5a7f  Z'....9.......Z.
+        0x00e0:  51f0 1fe5 9c48 5a06 e812 de6c 44f2 60b4  Q....HZ....lD.`.
+        0x00f0:  84aa 9f18 d825 80b6 4766 8b4c 5f01 b7d9  .....%..Gf.L_...
+        0x0100:  f31a 60ab 7b3e 29d6 b695 5171 7ecd a33a  ..`.{>)...Qq~..:
+        0x0110:  dfc6 edb1 7594 3938 347e f442 c5db fe67  ....u.984~.B...g
+        0x0120:  21a4 3abd 4849 0554 c4e1 6ea0 3e85 11db  !.:.HI.T..n.>...
+        0x0130:  a47b c4d1 f304 ffee e300 e3ab baad 0afc  .{..............
+        0x0140:  8ab3 0fde d528 e2f1 93f7 9971 2fbe 9d43  .....(.....q/..C
+        0x0150:  5fd1 ad1f 1fa3 c1d0 7949 37f1 f012 deb6  _.......yI7.....
+        0x0160:  da10 9032 f0a2 d03b ac1a f58d 82d5 8e61  ...2...;.......a
+        0x0170:  d247 24a6 7ea8 8509 87b9 2bd0 22c0 6409  .G$.~.....+.".d.
+        0x0180:  4973 bc7d 96db 654e b52a 0cf3 31f6 da0f  Is.}..eN.*..1...
+        0x0190:  1b92 5456 0835 00f5 02de 17d0 aef1 b2c3  ..TV.5..........
+        0x01a0:  f6ba fc8e f030 86fc 47e9 4d76 d644 77fd  .....0..G.Mv.Dw.
+        0x01b0:  4626 f8b2 e060 a2cc 6923 6493 404f 6b46  F&...`..i#d.@OkF
+        0x01c0:  61a5 be0c 7bcc bc1a 303c d57a 3b13 fbc3  a...{...0<.z;...
+        0x01d0:  ae20 ae12 89fc 1a3d 9e5f aac5 c334 1305  .......=._...4..
+        0x01e0:  d4db 9a5f 33f4 fc26 ac78 0cdc 0e02 15b5  ..._3..&.x......
+^C      0x01f0:  ad74 9286 f4b5 2afd 1c10 b90b 0623 68b2  .t....*......#h.
+        0x0200:  386e 28a8 321b 366e 736d                 8n(.2.6nsm
+
+512 packets captured
+3869 packets received by filter
+3324 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

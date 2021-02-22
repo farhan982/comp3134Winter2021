@@ -1,0 +1,5 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# service sshd stop
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# service sshd start
+
+moham@LAPTOP-TD54SRU3 MINGW64 ~
+$ ssh root@159.203.13.120 -p 2222

@@ -1,0 +1,14 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+00:20:28.706788 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 2028338496:2028338604, ack 1362635140, win 501, length 108
+00:20:28.706947 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 108:252, ack 1, win 501, length 144
+00:20:28.707038 IP 159.203.13.120.ssh > cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217: Flags [P.], seq 252:288, ack 1, win 501, length 36
+00:20:28.707884 IP 159.203.13.120.48556 > dns.google.domain: 62043+ PTR? 64.17.238.99.in-addr.arpa. (43)
+00:20:28.723114 IP cpe00fc8d887e03-cm00fc8d887e00.cpe.net.cable.rogers.com.57217 > 159.203.13.120.ssh: Flags [.], ack 288, win 507, length 0
+^C00:20:28.724591 IP 45.9.148.117.ssh > 159.203.13.120.45662: Flags [P.], seq 309333552:309336448, ack 666032045, win 507, options [nop,nop,TS val 2760056953 ecr 2347926667], length 2896
+
+6 packets captured
+55 packets received by filter
+18 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
