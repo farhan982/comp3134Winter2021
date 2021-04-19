@@ -1,0 +1,7 @@
+It shows the definition of the word that I looked for.
+
+On the url it says misspelling?term=<the word I typed in>
+
+It gave me a bunch of results for it
+
+Shows the same results as previous
